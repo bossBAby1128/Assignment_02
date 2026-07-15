@@ -89,3 +89,35 @@ nav .menu a:hover{
 /* .info-card{
     text-align: center;
 } */
+/* footer-styles */
+.footer-container{
+    background:url("./images/footer-bg.png");
+    background-position: center;
+    /* background-size: cover; */
+    padding: 120px;
+}
+.footer-content{
+    text-align: center;
+    margin: 0px auto;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 32px 0;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+.footer-links a:hover{
+    color: #00FF88;
+}
+.copyright{
+    color: #FAFAFA;
+}
