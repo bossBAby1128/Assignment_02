@@ -4,26 +4,48 @@
     box-sizing: border-box;
 }
 /* shared styles */
+/* iframe{
+    border-radius: 12px;
+    max-width: 100%;
+} */
 .font-inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     
 }
+.gradient-text{
+    background: linear-gradient(
+        90deg,
+        #EE1DDA 0%,
+        #FF8A5B 45%,
+        #8B1FE0 100%
+    );
+    font-weight: 800;
+}
+.gradient-btn{
+    background: linear-gradient(
+        90deg,
+        #F7E93F 0%,
+        #FB09B4 51%,
+        #9100F8 100%
+    );
+}
 .text-center {
     text-align: center;
 }
 .btn{
-    padding: 16px;
-    border-radius: 50px;
+    padding: 12px 16px;
+    border-radius: 25px;
+    border: none;
 }
 h2{
-    color: #001305;
+    color: #FFFFFF;
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 p{
-    color: #03001752;
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
 }
@@ -89,6 +111,66 @@ nav .menu a:hover{
 /* .info-card{
     text-align: center;
 } */
+ /* episode styles */
+ #episode{ 
+    background-color: #1A0B2E;
+    padding: 120px 200px;
+    text-align: center; 
+    align-items: center;
+ }
+ /* .section-1{
+    margin: 120px 200px;
+ } */
+ .botm{
+    margin-bottom: 40px;
+ }
+ .episode-cards{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+ }
+.episode-card{
+    width: 380px;
+    background-color: #250D44;
+    margin-right: 30px;
+    overflow: hidden;
+    border-radius: 20px;
+ }
+ .card-content{
+    padding: 24px;
+ }
+ .card-content h2{
+    font-size: 24px;
+
+ }
+ .time{
+    margin-top: 12px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: left;
+    
+ }
+.time p{
+    color: #00FF88;
+    margin-left: 5px;
+ } 
+.section-2{
+    margin: 120px 200px;
+}
+.sec_2_heading{
+    margin-bottom: 40px;
+}
+.host{
+    background-color: #351165;
+    border-radius: 40px;
+    display: flex;
+    padding: 40px 24px 40px 40px;
+}
+.host img{
+    margin-right: 24px;
+}
+
 /* footer-styles */
 .footer-container{
     background:url("./images/footer-bg.png");
@@ -103,6 +185,7 @@ nav .menu a:hover{
 .footer-links{
     display: flex;
     justify-content: center;
+    
     gap: 40px;
     margin: 32px 0;
 }
@@ -110,13 +193,19 @@ nav .menu a:hover{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
-    gap: 8px;
+    
     align-items: center;
     text-align: center;
     transition: 0.3s;
 }
 .footer-links a:hover{
     color: #00FF88;
+}
+.footer-links img{
+    margin-right: 8px;
+    object-fit: contain;
+    height: 22px;
+    width: 22px;
 }
 .copyright{
     color: #FAFAFA;
