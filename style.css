@@ -153,9 +153,6 @@ nav .menu a:hover{
     padding: 8px 16px;
     border-radius: 10px;
 }
-/* .banner-content{
-    text-align: center;
-} */
  .banner-info{
     margin-top: 40px;
     display: flex;
@@ -179,22 +176,26 @@ nav .menu a:hover{
 
 #about{
     background-color: #1A0B2E;
-    padding: 50px 200px 120px 200px;
+    padding: 90px 24px;
     text-align: center;
 }
+
 #abcd{
     margin-top: 20px;
 }
-#about hr{
-    color: aqua;
+.divider{
+    
+    max-width: 1200px;
     border: none;
-    border-top: 1px solid rgba(44, 3, 3, 0.2);
+    border-top: 1px solid rgba(136, 107, 107, 0.2);
+    margin: 56px auto 0;
 }
 .about-info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 200px;
+    max-width: 1200px;
+    display: grid;
+    margin: 56px auto 0;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
 }
 .about-info h2{
     color: #00FF88;
