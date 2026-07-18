@@ -179,12 +179,10 @@ nav .menu a:hover{
     padding: 90px 24px;
     text-align: center;
 }
-
 #abcd{
     margin-top: 20px;
 }
 .divider{
-    
     max-width: 1200px;
     border: none;
     border-top: 1px solid rgba(136, 107, 107, 0.2);
@@ -270,16 +268,19 @@ nav .menu a:hover{
 .botm{
     margin-bottom: 40px;
 }
+.section-1 {
+    width: 100%;
+}
 .episode-cards{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     display: flex;
-    margin: auto;
-    justify-content: space-between;
+    gap: 30px;
+    margin: 0px auto;
  }
 .episode-card{
     width: 380px;
     background-color: #250D44;
-    margin-right: 30px;
     overflow: hidden;
     border-radius: 20px;
 }
@@ -305,22 +306,26 @@ nav .menu a:hover{
     width: 20px;
 }
 .section-2{
-    margin: 120px 200px; 
+    max-width: 1200px;
+    width: 100%;
+    margin: 120px auto; 
 }
 .sec_2_heading{
     margin-bottom: 40px;
 }
 .host{
     min-height: 280px;
-    width: 1200px;
+    width: 100%;
     background-color: #250D44;
     border-radius: 40px;
     display: flex;
     padding: 40px;
     align-items: flex-start;
     gap: 24px;
+    box-sizing: border-box;
 }
 .host-content h2{
+    font-size: 32px;
     margin-bottom: 20px;
     text-align: left;
 }
@@ -332,7 +337,6 @@ nav .menu a:hover{
 .host-image img{
     height: 200px;
     width: 200px;
-    
 }
 .social-links{
     display: flex;
@@ -344,12 +348,17 @@ nav .menu a:hover{
 .footer-container{
     background:url("./images/footer-bg.png");
     background-position: center;
-    /* background-size: cover; */
-    padding: 120px;
+    background-size: cover;
+    padding: 64px 24px 40px;
 }
 .footer-content{
     text-align: center;
+    max-width: 720px;
     margin: 0px auto;
+}
+.footer-content h1{
+    font-size: 48px;
+    color: #FFFFFF;
 }
 .footer-links{
     display: flex;
@@ -358,6 +367,7 @@ nav .menu a:hover{
     margin: 32px 0;
 }
 .footer-links a{
+    display: flex;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
@@ -373,7 +383,10 @@ nav .menu a:hover{
     object-fit: contain;
     height: 22px;
     width: 22px;
+    border-radius: 50%;
+    transition: 0.3s;
 }
 .copyright{
     color: #FAFAFA;
+    margin: 0;
 }
