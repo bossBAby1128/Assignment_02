@@ -201,51 +201,106 @@ nav .menu a:hover{
     color: #00FF88;
     margin-bottom: 16px;
 }
-/* .info-card{
+/* feature styles */
+#features{
+    padding: 120px 200px;
+    background-color: #230E3D;
+}
+.features-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.features-heading {
     text-align: center;
-} */
+    margin-bottom: 40px;
+}
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,auto);
+    gap: 30px;
+}
+.feature-card{
+    background-color: #3a1b63;
+    border-radius: 30px;
+    padding: 40px;
+    flex-direction: column;
+}
+.feature-icon {
+    height: 44px;
+    width: 44px;
+    margin-bottom: 16px;
+}
+.feature-card h3{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.feature-icon img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+.card-1 {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.card-2{
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.card-4 {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.card-5 {
+    grid-row: span 1;
+    grid-column: span 1;
+}
  /* episode styles */
 
- #episode{ 
+#episode{ 
     background-color: #1A0B2E;
     padding: 120px 200px;
     text-align: center; 
     align-items: center;
  }
- .botm{
+.botm{
     margin-bottom: 40px;
- }
- .episode-cards{
+}
+.episode-cards{
     width: 1200px;
     display: flex;
     margin: auto;
     justify-content: space-between;
  }
- /* img */
-
 .episode-card{
     width: 380px;
     background-color: #250D44;
     margin-right: 30px;
     overflow: hidden;
     border-radius: 20px;
- }
- .card-content{
+}
+.card-content{
     padding: 24px;
- }
- .card-content h2{
+}
+.card-content h3{
     font-size: 24px;
- }
- .time{
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.time{
     margin-top: 12px;
-    margin-left: 24px;
     display: flex;
     justify-content: left;
- }
+}
 .time p{
     color: #00FF88;
     margin-left: 5px;
- } 
+} 
 .time img{
     width: 20px;
 }
@@ -256,9 +311,9 @@ nav .menu a:hover{
     margin-bottom: 40px;
 }
 .host{
-    height: 280px;
+    min-height: 280px;
     width: 1200px;
-    background-color: #250949;
+    background-color: #250D44;
     border-radius: 40px;
     display: flex;
     padding: 40px;
@@ -277,7 +332,7 @@ nav .menu a:hover{
 .host-image img{
     height: 200px;
     width: 200px;
-    margin-right: 24px;
+    
 }
 .social-links{
     display: flex;
