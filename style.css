@@ -368,7 +368,6 @@ nav .menu a:hover{
     gap: 20px;
     align-items: center;
 }
-
 /* footer-styles */
 
 .footer-container{
@@ -419,7 +418,7 @@ nav .menu a:hover{
     color: #FAFAFA;
     margin: 0;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 576px){
     .navbar .container {
         height: 60px;
         padding: 16px 20px;
